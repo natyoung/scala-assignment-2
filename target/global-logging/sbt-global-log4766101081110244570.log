@@ -1,0 +1,33 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/natyoung/dev/coursera/democracy/target/scala-3.0.0/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E040] Syntax Error: /Users/natyoung/dev/coursera/democracy/src/main/scala/democracy/MajorityJudgement.scala:145:41 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m145 |[0m        bestCandidatesMinusOneMedianGrade.findWinner()[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                         [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                         ')' expected, but '.' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E040] Syntax Error: /Users/natyoung/dev/coursera/democracy/src/main/scala/democracy/MajorityJudgement.scala:149:0 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m149 |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |[31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |unindent expected, but eof found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/natyoung/dev/coursera/democracy/src/main/scala/democracy/MajorityJudgement.scala:141:39 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m141 |[0m          bestCandidates.map(([36mk[0m, [36mv[0m) => (k, v.diff(Seq(bestMedianGrade)))[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                       [31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |postfix operator `bestCandidatesMinusOneMedianGrade` needs to be enabled[0m
+[0m[[0m[31merror[0m] [0m[0m    |by making the implicit value scala.language.postfixOps visible.[0m
+[0m[[0m[31merror[0m] [0m[0m    |----[0m
+[0m[[0m[31merror[0m] [0m[0m    |This can be achieved by adding the import clause 'import scala.language.postfixOps'[0m
+[0m[[0m[31merror[0m] [0m[0m    |or by setting the compiler option -language:postfixOps.[0m
+[0m[[0m[31merror[0m] [0m[0m    |See the Scaladoc for value scala.language.postfixOps for a discussion[0m
+[0m[[0m[31merror[0m] [0m[0m    |why the feature needs to be explicitly enabled.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /Users/natyoung/dev/coursera/democracy/src/main/scala/democracy/MajorityJudgement.scala:148:12 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m148 |[0mend Election[0m
+[0m[[0m[31merror[0m] [0m[0m    |            [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |            Found:    Unit[0m
+[0m[[0m[31merror[0m] [0m[0m    |            Required: democracy.Candidate[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[33mwarn[0m] [0m[0mGetting the hostname Paidy161.local was slow (5004.883262 ms). This is likely because the computer's hostname is not set. You can set the hostname with the command: scutil --set HostName "$(scutil --get LocalHostName).local".[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 5 s, completed Jul 4, 2021 5:16:41 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

@@ -1,0 +1,30 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/natyoung/dev/coursera/democracy/target/scala-3.0.0/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E040] Syntax Error: /Users/natyoung/dev/coursera/democracy/src/main/scala/democracy/MajorityJudgement.scala:149:0 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m149 |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |[31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |')' expected, but eof found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /Users/natyoung/dev/coursera/democracy/src/main/scala/democracy/MajorityJudgement.scala:145:4 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m141 |[0m          bestCandidates.map(([36mk[0m, [36mv[0m) => (k, v.diff(Seq(bestMedianGrade)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m142 |[0m  [0m
+[0m[[0m[31merror[0m] [0m[0m[31m143 |[0m        [34m// Finally, call `findWinner` on the reduced collection of candidates,[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m144 |[0m        [34m// `bestCandidatesMinusOneMedianGrade`.[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m145 |[0m    findWinner(bestCandidatesMinusOneMedianGrade)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                       [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |value findWinner is not a member of (democracy.Candidate, Seq[democracy.Grade]).[0m
+[0m[[0m[31merror[0m] [0m[0m    |Note that `findWinner` is treated as an infix operator in Scala 3.[0m
+[0m[[0m[31merror[0m] [0m[0m    |If you do not want that, insert a `;` or empty line in front[0m
+[0m[[0m[31merror[0m] [0m[0m    |or drop any spaces behind the operator.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /Users/natyoung/dev/coursera/democracy/src/main/scala/democracy/MajorityJudgement.scala:148:12 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m148 |[0mend Election[0m
+[0m[[0m[31merror[0m] [0m[0m    |            [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |            Found:    Unit[0m
+[0m[[0m[31merror[0m] [0m[0m    |            Required: democracy.Candidate[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[33mwarn[0m] [0m[0mGetting the hostname Paidy161.local was slow (5001.772024 ms). This is likely because the computer's hostname is not set. You can set the hostname with the command: scutil --set HostName "$(scutil --get LocalHostName).local".[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 5 s, completed Jul 4, 2021 5:16:08 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
